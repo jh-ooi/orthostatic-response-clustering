@@ -5,12 +5,12 @@ This repository contains the final 14-feature matrix and analysis scripts used i
 Data: 14_Features_Matrix.mat      # Final de-identified dataset (14 features) with group label (0: CON; 1: HTN)
 
 clustering_scripts:
-├── PCA_ClusteringsAlgorithm.mlx    # PCA-reduced data with K-means, Fuzzy C-means, and Hierarchical clustering
-├── UMAP_ClusteringsAlgorithm.mlx   # UMAP-reduced data with K-means, Fuzzy C-means, and Hierarchical clustering
-├── tSNE_visualization.mlx          # t-SNE visualization of the original 14D feature space
-├── validate_kmeans_on_reduced.m    # K-means validation across k = 2–4 (Silhouette, DBI)
-├── fuzzy_validate_on_reduced.m     # Fuzzy C-means validation across k = 2–4 (Silhouette, DBI)
-└── hierarchical_validate_ward.m    # Hierarchical clustering with Ward’s linkage validation
+1. PCA_ClusteringsAlgorithm.mlx    # PCA-reduced data with K-means, Fuzzy C-means, and Hierarchical clustering
+2. UMAP_ClusteringsAlgorithm.mlx   # UMAP-reduced data with K-means, Fuzzy C-means, and Hierarchical clustering
+3. tSNE_visualization.mlx          # t-SNE visualization of the original 14D feature space
+4. validate_kmeans_on_reduced.m    # K-means validation across k = 2–4 (Silhouette, DBI)
+5. fuzzy_validate_on_reduced.m     # Fuzzy C-means validation across k = 2–4 (Silhouette, DBI)
+6. hierarchical_validate_ward.m    # Hierarchical clustering with Ward’s linkage validation
 
 analysis scripts: Analysis_14selectedFeatures    # Post-clustering analysis on 14 features and radar plot generation
 
